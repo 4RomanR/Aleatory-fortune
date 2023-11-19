@@ -1,0 +1,88 @@
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #FFF;
+  text-shadow: 2px 0 #FFA645, -2px 0 #FFA645, 0 2px #FFA645, 0 -2px #FFA645,
+               1px 1px #FFA645, -1px -1px #FFA645, 1px -1px #FFA645, -1px 1px #FFA645;
+  text-align: center;
+  -webkit-text-stroke: 1% #FFA645;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Backgrounds */
+.bg1{
+  background-image: url("/img/bg1.png");
+  background-size: cover ;
+  background-position: center;
+}
+.bg2{
+  background-image: url("/img/bg2.png");
+  background-size: cover ;
+  background-position: center;
+}
+.bg3{
+  background-image: url("/img/bg3.png");
+  background-size: cover ;
+  background-position: center;
+}
+.bg4{
+  background-image: url("/img/bg4.png");
+  background-size: cover ;
+  background-position: center;
+}
+
+
+.txt-box{
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.txt-box button{
+  padding: 12px 60px;
+  margin: 90px auto 15px  auto;
+
+  border-radius: 7px;
+  border: 1.5px solid #893446;
+  background: #FFA645;  
+  font-family: 'Fredoka', sans-serif;
+}
+.bg-txt{
+  background-image: url("/img/Rectangle.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 345px;
+  max-width: 467px;
+  height: 159px;
+  width: 345px;
+  
+  display: grid;
+  place-content: center;
+}
+.bg-txt p{
+  margin: 15px 21px;
+  text-align: center;
+}
+
+.footer-autor{
+  position: absolute;
+  bottom: 15px;
+  background: rgba(255, 255, 255, 0.70);
+  padding: 9px 77px;
+  min-width: 285px;
+  
+}
+.footer-autor p{
+  text-align: center;
+}
