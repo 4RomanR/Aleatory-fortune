@@ -23,21 +23,25 @@ h1 {
   background-image: url("/img/bg1.png");
   background-size: cover ;
   background-position: center;
+  transition: 0.5s ease-in-out;
 }
 .bg2{
   background-image: url("/img/bg2.png");
   background-size: cover ;
   background-position: center;
+  transition: 0.5s ease-in-out;
 }
 .bg3{
   background-image: url("/img/bg3.png");
   background-size: cover ;
   background-position: center;
+  transition: 0.5s ease-in-out;
 }
 .bg4{
   background-image: url("/img/bg4.png");
   background-size: cover ;
   background-position: center;
+  transition: 0.5s ease-in-out;
 }
 
 
@@ -47,6 +51,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  transition: 0.5s ease-in-out;
 }
 .txt-box button{
   padding: 12px 60px;
@@ -56,6 +61,7 @@ h1 {
   border: 1.5px solid #893446;
   background: #FFA645;  
   font-family: 'Fredoka', sans-serif;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.461)
 }
 .bg-txt{
   background-image: url("/img/Rectangle.png");
@@ -73,6 +79,7 @@ h1 {
 .bg-txt p{
   margin: 15px 21px;
   text-align: center;
+  transition: 0.5s ease-in-out;
 }
 
 .footer-autor{
